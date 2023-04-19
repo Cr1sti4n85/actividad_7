@@ -1,0 +1,31 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+.fondo{
+  background-image: url('https://www.bbva.com/wp-content/uploads/2018/06/fintech-tecnologia-innovacion-digital-blockchain-bbva_opt.jpg');
+  height: 260px;
+  margin-top: 58px;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+}
+.contacto{
+  padding-left: 30px ;
+}
+.seguimiento{
+  padding-left: 30px;
+}
+.carousel-item img {  
+  object-fit: contain;
+  object-position: center;
+  overflow: hidden;
+  height:60vh;
+  padding: 50px;
+}
