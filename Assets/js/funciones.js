@@ -2,6 +2,7 @@
   function validarFormulario() {
     let numero = document.getElementById('numero').value;
     console.log(numero)
+    //Permite validar si número fue ingresado y si son datos numéricos
     if(numero === "" || /^\s+$/.test(numero)) {
       alert('No has escrito el número de seguimiento');
       return;
@@ -19,7 +20,7 @@ function validaDatos() {
   let msge = document.getElementById("comentario").value;
   //validar que los campos no esten vacíos
   if (nombre && email && msge){
-    //validar nombre compuesto de letras y un espacio entre nombre y apellido y que no sean solo espacios en blanco
+    //validar nombre compuesto de letras y que no sean solo espacios en blanco
     if(/^[A-Za-z ]+$/.test(nombre) && !/^\s+$/.test(nombre)) {
       //validar que el correo tenga formato correcto
       if ((/^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/.test(email))){
@@ -44,8 +45,5 @@ function validaDatos() {
   
 }
 
-$(document).ready(function () {
-  $('.table').DataTable();
-});
 
 
