@@ -23,7 +23,7 @@ function validaDatos() {
     //validar nombre compuesto de letras y que no sean solo espacios en blanco
     if(/^[A-Za-z ]+$/.test(nombre) && !/^\s+$/.test(nombre)) {
       //validar que el correo tenga formato correcto
-      if ((/^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/.test(email))){
+      if ((/^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,5})+$/.test(email))){
         //Valida que no sean espacios en blanco en el mensaje
         if (!/^\s+$/.test(msge)){
           alert("Mesaje enviado")
