@@ -15,16 +15,18 @@
 
 <body class="d-flex flex-column min-vh-100">
 	<header>
+		<!-- Se ultiliza un navBar de bootstrap, tema oscuro, fijo arriba-->
 		<nav class="navbar navbar-expand-md bg-body-tertiary bg-dark fixed-top" data-bs-theme="dark">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="./index.html"><img src="./Assets/img/logonavbar.png" alt="logo"
 						width="30" /></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					data-bs-target="#navbarPrincipal" aria-controls="navbarPrincipal"
 					aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<!-- Se añade una submenú para que contiene links a futuras paginas de productos especificos-->
+				<div class="collapse navbar-collapse" id="navbarPrincipal">
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
@@ -88,11 +90,13 @@
 			</form>
 		</section>
 	</main>
+	<!-- Se utiliza footer de bootstap, tema negro, items alinieados al centro y con espacio entre ellos-->
 	<footer class="footer text-white bg-dark d-flex justify-content-between align-items-center mt-auto">
 		<p>
 			Desarrollado por Cristian Pérez, Brian Arancibia,
 			Lautaro Alfaro | 2023
 		</p>
+		<!-- Los iconos son de bootstrap para aprovechar el mismo framework-->
 		<section class="col d-flex justify-content-end">
 			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
 				class="bi bi-facebook me-4" viewBox="0 0 16 16">

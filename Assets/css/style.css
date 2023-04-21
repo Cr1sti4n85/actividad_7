@@ -6,22 +6,27 @@ body {
   margin: 0;
   margin-bottom: 40px;
 }
+/* se aplica un fondo con tamaño especifico y margen especifico */
 .fondo{
   background-image: url('https://www.bbva.com/wp-content/uploads/2018/06/fintech-tecnologia-innovacion-digital-blockchain-bbva_opt.jpg');
   height: 260px;
   margin-top: 58px;
 }
+/* footer con ubicacion y altura*/
 footer {
   bottom: 0;
   width: 100%;
   height: 5%;
 }
+/* se añade padding para que sea mejor visualmente*/
 .contacto{
   padding-left: 30px ;
 }
+/* se añade padding para que sea mejor visualmente*/
 .seguimiento{
   padding-left: 30px;
 }
+/* se dan propiedades de tamaño y padding al carrusel*/
 .carousel-item img {  
   object-fit: contain;
   object-position: center;
