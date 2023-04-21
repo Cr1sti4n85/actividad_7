@@ -10,6 +10,8 @@
     else if(isNaN(numero)){
         alert('Por favor ingresa solo números');
       return;
+    } else {
+      alert('Número de seguimiento ingresado exitosamente')
     }
 }
 
